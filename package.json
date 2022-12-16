@@ -4,8 +4,8 @@
   "description": "Random relationship",
   "main": "index.js",
   "scripts": {
-    "prestart": "cra-append-sw --mode dev --env ./.env.dev ./firebase-message-sw.js",
-    "prebuild": "cra-append-sw --mode build --env ./.env.prod ./firebase-message-sw.js"
+    "prestart": "cra-append-sw --mode dev --env ./.env.dev ./webNotification/firebase-message-sw.js",
+    "prebuild": "cra-append-sw --mode build --env ./.env.prod ./webNotification/firebase-message-sw.js"
   },
   "author": "Eric L",
   "license": "ISC",
