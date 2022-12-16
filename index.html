@@ -28,8 +28,8 @@
         firebase.initializeApp(config);
 
         const messaging = firebase.messaging();
-
-        navigator.serviceWorker.register('/webNotification/firebase-messaging-sw.js',{ scope: '/webNotification/' })
+        
+        navigator.serviceWorker.register('/firebase-messaging-sw.js', {scope: './'})
         .then((registration) => {
             messaging
             .requestPermission()
