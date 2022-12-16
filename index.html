@@ -29,7 +29,7 @@
 
         const messaging = firebase.messaging();
         swRegistration = await navigator.serviceWorker.register(
-          '/webNotification/firebase-messaging-sw.js',
+          'firebase-messaging-sw.js',
           {
             scope: '/webNotification'
           }
